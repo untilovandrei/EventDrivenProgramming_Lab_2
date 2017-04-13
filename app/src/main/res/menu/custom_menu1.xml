@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <item
+        android:id="@+id/message"
+        android:icon="@drawable/ic_message"
+        android:title="@string/models"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/redButton"
+        android:title="Set red button"
+        app:showAsAction="withText"
+        />
+    <item
+        android:id="@+id/backgroundColor"
+        android:title="Set red background"
+        app:showAsAction="withText"
+        />
+
+
+</menu>
